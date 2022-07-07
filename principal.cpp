@@ -44,7 +44,7 @@ void Principal::calcular()
     case 3:
         resultado = num1 / num2;
         if(num2 == 0){
-            QMessageBox::critical(this,"Error","No existe diviciones para 0");
+            QMessageBox::critical(this,tr("Error"),tr("No existe diviciones para 0"));
             break;
         }
         break;
@@ -52,5 +52,5 @@ void Principal::calcular()
         break;
     }
 
-    QMessageBox::information(this,"Resultado","El resultado es: " + QString::number(resultado));
+    QMessageBox::information(this,tr("Resultado"),tr("El resultado es: %1").arg(resultado));
 }
