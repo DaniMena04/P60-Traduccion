@@ -11,12 +11,12 @@
     <message>
         <location filename="principal.ui" line="21"/>
         <source>Numero 1</source>
-        <translation type="unfinished">Number-1:</translation>
+        <translation type="unfinished">Number 1</translation>
     </message>
     <message>
         <location filename="principal.ui" line="31"/>
         <source>Numero 2</source>
-        <translation type="unfinished">number-2:</translation>
+        <translation type="unfinished">Number 2</translation>
     </message>
     <message>
         <location filename="principal.ui" line="41"/>
